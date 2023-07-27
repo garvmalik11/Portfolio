@@ -7,7 +7,7 @@ Portfolio-Website Portfolio website build using HTML5, CSS3, JavaScript
 If you want to contact me, you can reach me through the below handles.
 
 
-https://www.linkedin.com/in/garv-malik-9a98091bb/
+<a href=https://www.linkedin.com/in/garv-malik-9a98091bb/>Garv Malik</a>
 
 
 
