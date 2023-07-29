@@ -164,7 +164,32 @@ nav ul li a:hover{
 .projecttext{
     margin:20px 20px;
 }
-
+.skillsection h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.skillsection{
+    font-size: 2rem;
+    margin: 0px 80px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skillcard{
+    width: 30%;
+    margin: 30px 0px;
+    background-color:  blueviolet;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgb(223, 179, 245) 5px 5px 8px;
+    transition: all .3s ease 0s;
+}
+.skillcard:hover{
+    box-shadow: rgb(223, 179, 245) 10px 10px 10px;
+}
 .fourthsection > h1{
     font-size: 2rem;
     margin-left: 80px;
@@ -343,6 +368,9 @@ nav ul li a:hover{
     .rightme{
         font-size: .6rem;
     }
+    .skillsection{
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 520px) {
     /* body{background-color: yellow;} */
@@ -360,6 +388,9 @@ nav ul li a:hover{
     }
     .projecttext{
         font-size: .5rem;
+    }
+    .projectlist{
+        margin: 20px 30px;
     }
     .fa-brands{
         font-size: 1rem;
@@ -387,6 +418,11 @@ nav ul li a:hover{
         padding: 0px;
         font-size: .8rem;
     }
+    .skillsection{
+        font-size: .8rem;
+        margin: 0px 60px;
+    }
+    
 }
 
 @media screen and (max-width: 430px) {
@@ -404,10 +440,17 @@ nav ul li a:hover{
     .headingfoot{
         font-size: .7rem;
     }
+    .projectlist{
+        margin: 20px 30px;
+    }
     .itext{
         font-size: .4rem;
     }
     .fa-solid{
         font-size: .5rem;
+    }
+    .skillsection{
+        font-size: .6rem;
+        margin: 0px 50px;
     }
 }
