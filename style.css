@@ -290,9 +290,9 @@ nav ul li a:hover{
     color: white;
 }
 @media screen and (max-width: 1080px) {
-  body{
-    /* background-color: blue; */
-  }
+  /* body{
+    background-color: blue;
+  } */
     .formcontainer{
         width: 100%;
         height: 30%;
