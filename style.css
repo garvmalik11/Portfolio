@@ -163,6 +163,12 @@ nav ul li a:hover{
 .projecttext{
     margin:20px 20px;
 }
+.projecttext h5{
+    margin:10px 2px;
+    font-size: 1.2rem;
+    color: black;
+    text-shadow: white 2px 2px 5px;
+}
 .projectlinks{
     background-color: white;
     text-decoration: none;
@@ -170,7 +176,15 @@ nav ul li a:hover{
     padding: 0px 20px;
     color: rgb(0, 0, 0);
     box-shadow: black 2px 2px 2px ;
+    transition: all .3s ease 0s;
 }
+.projectlinks:hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    box-shadow: black 2px 2px 2px ;
+}
+
 .skillsection h1{
     font-size: 2.2rem;
     text-align: center;
@@ -433,9 +447,12 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 430px) {
-    /* body{background-color: green;} */
+    body{background-color: green;}
     nav{
         font-size: .5rem;
+    }
+    .hr1{
+        margin: 10px 40px;
     }
     .fa-brands{
         font-size: 1rem;
