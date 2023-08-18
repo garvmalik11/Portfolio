@@ -133,6 +133,28 @@ nav ul li a:hover{
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
 }
+.educationsection{
+    margin: 10px 80px;
+}
+.educationsection > h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+.coll h1{
+    color: #fca311;
+    font-size: 1.9rem;
+} 
+.edu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.edu img{
+    height: 200px;
+    width: 400px;
+}
 
 .thirdsection > h1{
     font-size: 2.2rem;
@@ -329,12 +351,11 @@ nav ul li a:hover{
     .form1{
         height: 40vh;
     } 
+    
 }
 
 @media screen and (max-width: 940px) {
-    /* body{
-        background-color: red; 
-    } */
+    /* body{background-color: red; } */
     .leftfooter{
         margin: 5px 10px;
     }
@@ -357,7 +378,7 @@ nav ul li a:hover{
 
 
 @media screen and (max-width: 660px) {
-    
+    /* body{background-color: blue;} */
     .firstsection{
         flex-direction: column;
         margin: 10px 0px; 
@@ -391,6 +412,13 @@ nav ul li a:hover{
     }
     .skillsection{
         font-size: 1rem;
+    }
+    .coll h2{
+        font-size: 1rem;
+    }
+    .edu img{
+        height: 100px;
+        width: 200px;
     }
 }
 @media screen and (max-width: 520px) {
@@ -443,6 +471,22 @@ nav ul li a:hover{
         font-size: .8rem;
         margin: 0px 60px;
     }
+    .educationsection{
+        margin: 10px 60px;
+    }
+    .coll h1{
+        font-size: 1.2rem;
+    } 
+    .coll h2{
+        font-size: .8rem;
+    }
+    .coll p{
+        font-size: .5rem;
+    }
+    .edu img{
+        height: 80px;
+        width: 160px;
+    }
     
 }
 
@@ -476,5 +520,21 @@ nav ul li a:hover{
     .skillsection{
         font-size: .6rem;
         margin: 0px 50px;
+    }
+    .educationsection{
+        margin: 10px 40px;
+    }
+    .coll h1{
+        font-size: 1.1rem;
+    } 
+    .coll h2{
+        font-size: .7rem;
+    }
+    .coll p{
+        font-size: .5rem;
+    }
+    .edu img{
+        height: 80px;
+        width: 160px;
     }
 }
