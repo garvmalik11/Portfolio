@@ -22,6 +22,7 @@ nav{
     width: 100%;
     background-color:  rgba(3, 63, 78, 0.498);
     position: fixed;
+    z-index: 2;
 }
 nav ul{
     display: flex;
@@ -297,8 +298,9 @@ nav ul li a:hover{
     background-color: rgb(255, 0, 0);
     transform: scale(.9);
 }
+
 .footer{
-    background-color: #220429;
+    background-color: #000000;
     display: flex;
     align-items: center;
 }
@@ -308,22 +310,27 @@ nav ul li a:hover{
 .rightfooter{
     margin: 20px 20px 20px 100px;
 }
+
 .headingfoot{
     font-size: 1.7rem;
-    color: #fca311;
+    color: #ffffff;
     font-weight: 600;
 }
+.thanks{
+    color: #6b6b6b;
+}
 .fa-solid{
-    color: #fca311;
+    color: #aeaeae;
     margin: 10px 15px;
     font-size: 1.1rem;
 }
 .itext{
     font-size: .9rem;
+    color: #6b6b6b;
 }
 .fa-brands{
     font-size: 2rem;
-    color: #fca311;
+    color: #aeaeae;
     margin: 15px 15px;
     text-decoration: none;
     transition: all .3s ease 0s;
