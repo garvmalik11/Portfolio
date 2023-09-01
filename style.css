@@ -303,10 +303,13 @@ nav ul li a:hover{
     background-color: #000000;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .leftfooter{
-    margin: 5px 85px;
+    margin: 5px 5px;
 }
+
+
 .rightfooter{
     margin: 20px 20px 20px 100px;
 }
@@ -318,6 +321,15 @@ nav ul li a:hover{
 }
 .thanks{
     color: #6b6b6b;
+}
+.midfooter ul li a{
+    text-decoration:  none;
+    color:  #6b6b6b;
+    transition: all .3s ease 0s;
+}
+.midfooter ul li a:hover{
+    text-decoration: underline;
+    color:  white;
 }
 .fa-solid{
     color: #aeaeae;
@@ -339,6 +351,15 @@ nav ul li a:hover{
     transform: scale(1.1);
     color: white;
 }
+.love{
+    background-color: black; 
+    text-align: center;
+}
+
+.fa-heart{
+    color: red;
+}
+
 @media screen and (max-width: 1080px) {
   /* body{
     background-color: blue;
@@ -358,6 +379,7 @@ nav ul li a:hover{
     .form1{
         height: 40vh;
     } 
+
     
 }
 
@@ -378,6 +400,7 @@ nav ul li a:hover{
         align-items: center;
         margin: 30px 0px;
     }
+
 
 }
 
@@ -426,6 +449,9 @@ nav ul li a:hover{
     .edu img{
         height: 100px;
         width: 200px;
+    }
+    .love p{
+        font-size: .5rem;
     }
 }
 @media screen and (max-width: 520px) {
@@ -544,4 +570,8 @@ nav ul li a:hover{
         height: 80px;
         width: 160px;
     }
+    .love p{
+        font-size: .3rem;
+    }
+
 }
