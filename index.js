@@ -1,19 +1,20 @@
-// let elamclass = document.getElementsByClassName('footer');
-// // console.log(elamclass);
-// // elamclass[0].style.background = "yellow";
+document.getElementById('year').textContent = new Date().getFullYear();
 
+const form = document.getElementById('contactForm');
+if (form) {
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const button = this.querySelector('button');
+    const originalText = button.textContent;
 
-// let arr = document.getElementsByTagName('button');
-// console.log(arr);
-// var createdElement = document.createElement('p')
-// createdElement.innerText = "HI ";
-// arr[0].appendChild(createdElement);
+    button.textContent = 'Message Sent';
+    button.disabled = true;
 
-// var createdElement2 = document.createElement('H1');
-// createdElement2.innerText="QWERTY YTREWQ";
-// arr[0].appendChild(createdElement2);
-// arr[0].replaceChild( createdElement2,createdElement,);
-
-
-
+    setTimeout(() => {
+      button.textContent = originalText;
+      button.disabled = false;
+      form.reset();
+    }, 1500);
+  });
+}
 
